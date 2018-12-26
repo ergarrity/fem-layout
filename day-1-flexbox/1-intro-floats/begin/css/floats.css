@@ -32,6 +32,13 @@ div img {
 
 /* grid system -- mobile first! */
 
+.row: :after{
+	content: "";
+	display: table;
+	clear: both;
+}
+
+
 
 /* Mobile Landscape Screen Sizes */
 @media only screen and (min-width: 480px)  {
