@@ -31,13 +31,48 @@ div img {
 }
 
 /* grid system -- mobile first! */
-
-
+.row {
+	display: flex;
+	flex-flow: row wrap;
+}
+[class*="col"] {
+	margin-left: 4%;
+}
+.col-1{
+	background-color: #ffc;
+}
+.col-2 {
+	background-color: lightblue;
+}
+.col-3-1 {
+	background-color: lightpink;
+}
+.col-3-2 {
+	background-color: lightcyan;
+}
+.col-4 {
+	background-color: lightgreen;
+}
 /* Mobile Landscape Screen Sizes */
 @media only screen and (min-width: 480px)  {
 
 }
 /* Desktop screen Sizes */
 @media only screen and (min-width: 768px) {
+	.col-1 {
+		flex: 0 0 20%;
+	}
+	.col-2 {
+		flex: 0 0 44%;
+	}
+	.col-3-1 {
+		flex: 0 0 20%;
+	}
+	.col-3-2 {
+		flex: 0 0 68%;
+	}
+	.col-4 {
+		flex: 0 0 92%
+	}
 
 }

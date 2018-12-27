@@ -68,5 +68,19 @@ div img {
 }
 /* Desktop screen Sizes */
 @media only screen and (min-width: 768px) {
+	.col-1 {
+		width: 20%;
+	}
+
+	.col-2 {
+		width: 44%;
+	}
+
+
+
+
+
+
+	
 
 }
